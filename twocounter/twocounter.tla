@@ -1,3 +1,5 @@
+\* https://jack-vanlightly.com/blog/2023/10/10/a-primer-on-formal-verification-and-tla
+
 ---------------------------- MODULE twocounter ----------------------------
 EXTENDS Integers
 CONSTANT C, Limit
