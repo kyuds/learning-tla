@@ -1,0 +1,11 @@
+states/
+*.out
+*.tlaps
+**/*.toolbox/*/
+**/*.toolbox/*___*_SnapShot_*.launch
+**/*.toolbox/.project
+**/*.toolbox/.settings/
+**/*.toolbox/*.aux
+**/*.toolbox/*.log
+**/*.toolbox/*.pdf
+**/*.toolbox/*.tex
