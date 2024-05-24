@@ -13,6 +13,9 @@ Next ==
         /\ counter[c] < Limit 
         /\ counter' = [counter EXCEPT ![c] = counter[c] + 1]
 
+Spec == 
+    Init /\ [][Next]_counter
+
 AlwaysNonNegative ==
     \A c \in C : counter[c] > -1
 
